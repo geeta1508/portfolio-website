@@ -1,0 +1,182 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+ <body>
+    <div class="protfolio-container">
+    <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#skills">Skills</a></li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+   
+   
+    <div class="left-container">
+        <div class="icons">
+        <a href="https://github.com/geeta1508" target="_blank" class="social-icon">    
+            <i class="fa-brands fa-github"></i>
+            <a href="https://www.linkedin.com/in/geeta-kale-61a225253/" target="_blank" class="social-icon">    
+            <i class="fa-brands fa-linkedin"></i></a>
+            <!-- <i class="fa-brands fa-whatsapp"></i> -->
+            <a href="https://telegram.org/dl_blank" target="_blank" class="social-icon">
+            <i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <!-- Home section -->
+        <div id="home" class="content">
+            <h2>Hii! I am Geeta Kale</h2>
+            <p class="intro">Wel-Come to My <span>Portfolio</span></p>
+            <p class="detail"> I am a passionate Full Stack Developer with expertise in Python, Flask,Django,SQL and Web Technologies. I love solving problems and building interactive applications.
+                <br>💡 Explore my projects, skills, and certifications to see how I bring ideas to life through technology.</p>
+            <div class="btn-container">
+                <a href="Geeta kale (resume).pdf" download class="btn btn2">Download Resume</a>
+                <a href="https://github.com/geeta1508" class="btn btn2">Visit github</a>
+                <!-- <button>Visit Github</button> -->
+            </div>    
+        </div>
+    </div>
+    <div class="right-container"></div>
+    <div class="design">
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    </div>
+
+<!-- -----about------- -->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="Profile2.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="detail"> I have completed an M.Sc. in Computer Science from Swami Ramanand Teerth University, Nanded, and a Full Stack Python course, which has strengthened my skills in backend and frontend development. My experience includes developing an online bookshop application and completing various projects, such as an interactive navigation menu and a stopwatch web app during my internship at Prodigy Infotech.
+
+                <br>Explore my skills, Experience and Education to see how I bring ideas to life through technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>1.Web development</span><br>2.Web app developmet</li>
+                        <li><span>3.Python development</span><br>4.Django framework</li>
+                        <li><span>5.Flask framework</span><br>6.SQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025 - Current</span><br> intership at Prodigy infoTech</li>
+                        <li><span>2023 - 2024</span><br>Team lead at doing project</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Full Stack python development</li>
+                        <li><span>2024</span><br>Master in computer science</li>
+                        <li><span>2022</span><br>Bachelor in science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------Projects---------------------------- -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+        <div>
+            <!-- <i class="fas fa-code"></i> -->
+            <h2>Responsive Lending Page</h2>
+            <p>In this Project interactive navigation menu that changes color and style on scroll and hover using HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/geeta1508/Responsive-lending-Page" class="learn">Learn more</a>
+        </div>
+        <div>
+            <!-- <i class="fas fa-crop-alt"></i> -->
+            <h2>stopwatch web Application</h2>
+            <p>stopwatch web application using HTML, CSS, and JavaScript, implementing functions for start, pause, and reset.</p>
+            <a href="https://github.com/geeta1508/StopWatch" class="learn">Learn more</a>
+        </div>
+        <div>
+            <!-- <i class="fab fa-app-store"></i> -->
+            <h2>Tic-tac-toe web application</h2>
+            <p>Tic-Tac-Toe Web Application using HTML, CSS, and JavaScript. The project includes:
+                ✔️ Handling user clicks
+                ✔️ Tracking game state
+                ✔️ Checking for winning conditions.</p>
+            <a href="https://github.com/geeta1508/Tic-Tac-Toe-" class="learn">Learn more</a>
+        </div>
+        <div>
+            <h2>Weather Application</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eveniet animi, fugiat, unde dolorem debitis officiis voluptas vitae, cumque asperiores inventore vel illum voluptatem non provident ab doloribus odit neque.</p>
+            <a href="https://github.com/geeta1508/Weather-App" class="learn">Learn more</a>
+        </div>
+        <div>
+            <h2>Online Book Shop Application</h2>
+            <p>The Online Bookshop Application is a web-based platform designed for users to browse,search and purchase books.</p>
+            <a href="https://github.com/geeta1508/BookShopApplication" class="learn">Learn more</a>
+        </div>
+        <div>
+            <h2>Bank application</h2>
+            <p>Bank Management system is designed for managing and storing all the 
+                data of available in bank. It involves a user interface and admin interface. </p>
+            <a href="https://github.com/geeta1508/Bank-Management-System" class="learn">Learn more</a>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact <span class="highlight">Me!</span></h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <p>Email: geetakale1606@gmail.com</p>
+            <p>Phone: +123456789</p>
+            <p>Address: 123, Sinhagad Road, Pune</p>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!------------script-------------------- -->
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+</body>
+</html>
